@@ -1,0 +1,4 @@
+/*/
+"filename": "test.js"
+/*/
+"hello";

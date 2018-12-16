@@ -37,7 +37,7 @@ collections:
   - name: 'files' # Used in routes, e.g., /admin/collections/blog
     label: 'Files' # Used in the UI
     label_singular: 'File'
-    folder: 'src' # The path to the folder where the documents are stored
+    folder: 'files' # The path to the folder where the documents are stored
     extension: 'f'
     format: 'json-frontmatter'
     identifier_field: 'filename'

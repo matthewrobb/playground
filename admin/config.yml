@@ -38,8 +38,6 @@ collections:
     label: 'Files' # Used in the UI
     label_singular: 'File'
     folder: 'files' # The path to the folder where the documents are stored
-    extension: 'f'
-    format: 'json-frontmatter'
     identifier_field: 'filename'
     create: true # Allow users to create new documents in this collection
     slug: '{{filename}}' # Filename template, e.g., YYYY-MM-DD-title.md

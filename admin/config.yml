@@ -38,7 +38,7 @@ collections:
     label: 'js' # Used in the UI
     folder: 'js' # The path to the folder where the documents are stored
     extension: 'js'
-    format: 'frontmatter'
+    format: 'json-frontmatter'
     frontmatter_delimiter: ['/*<metadata>*//*', '*//*</metadata>*/']
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
